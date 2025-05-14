@@ -41,4 +41,4 @@ Este proyecto utiliza el conjunto de datos de diabetes de Pima Indians, disponib
 1. Clona este repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/diabetes-prediction-ml.git
+   git clone https://github.com/AntonioBurgos91/diabetes-prediction-ml.git
