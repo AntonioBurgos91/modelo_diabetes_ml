@@ -1,32 +1,44 @@
 # 🧠 Predicción de Diabetes con Machine Learning
 
-📊 Un análisis predictivo de diagnóstico de diabetes — combinando visualización de datos, limpieza y modelado con Python.
+Este proyecto aplica técnicas de ciencia de datos y algoritmos de machine learning para predecir la presencia de diabetes tipo 2 utilizando un conjunto de datos clínicos. El objetivo es crear un modelo preciso y reproducible que pueda ser utilizado como herramienta de apoyo a la medicina preventiva.
 
----
+## 📂 Contenido del Proyecto
 
-## 🧾 Descripción del Proyecto
+- Exploración y limpieza del dataset
+- Análisis exploratorio de datos (EDA) con visualizaciones
+- Selección de variables relevantes
+- Entrenamiento de múltiples modelos de clasificación:
+  - Regresión logística
+  - K-Nearest Neighbors (KNN)
+  - Support Vector Machine (SVM)
+  - Random Forest
+  - Gradient Boosting
+- Evaluación de modelos con métricas:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1-score
+  - Matriz de confusión
+- Comparación de resultados
+- Conclusiones y mejoras futuras
 
-Este proyecto es una exploración y análisis avanzado de datos médicos para predecir la presencia de diabetes en pacientes. Se aplican técnicas de ciencia de datos para preparar, visualizar y modelar los datos con el fin de obtener un sistema predictivo eficiente.
+## 🛠️ Tecnologías utilizadas
 
-Utilizamos herramientas clave como pandas, seaborn, matplotlib y scikit-learn para analizar los registros médicos disponibles, limpiar los datos, detectar patrones relevantes y entrenar modelos de clasificación para predecir si un paciente presenta diabetes o no.
-
----
-
-## 🎯 Objetivos
-
-- 🧹 Limpiar y preparar datos médicos reales para su análisis.
-- 📈 Visualizar patrones significativos entre variables clínicas (glucosa, IMC, edad, etc.).
-- 🧠 Entrenar un modelo de clasificación para predecir casos positivos de diabetes.
-- ✅ Evaluar y ajustar modelos predictivos usando métricas de rendimiento estándar (`sklearn`).
-
----
-
-## 🛠️ Herramientas y Librerías
-
-- Python 3.8+
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-Learn
+- Python 3.x
 - Jupyter Notebook
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+
+## 📊 Dataset
+
+Este proyecto utiliza el conjunto de datos de diabetes de Pima Indians, disponible públicamente en diversas plataformas (por ejemplo: Kaggle, UCI Machine Learning Repository).
+
+## 🚀 Cómo ejecutar el proyecto
+
+1. Clona este repositorio:
+
+   ```bash
+   git clone https://github.com/tu-usuario/diabetes-prediction-ml.git
